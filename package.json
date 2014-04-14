@@ -1,0 +1,22 @@
+{
+	"name": "http-lab",
+	"description": "Implementation of a robust HTTP server from top to bottom.",
+	"version": "0.0.1",
+	"private": true,
+	"author": "Mickael van der Beek (https://github.com/Mickael-van-der-Beek)",
+	"engines": {
+		"node": "latest"
+	},
+	"main": "./src/index",
+	"dependencies": {},
+	"devDependencies": {
+		"mocha": "latest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mickael-van-der-Beek/http-lab"
+	},
+	"scripts": {
+		"test": "node_modules/mocha/bin/mocha --timeout 1000 --reporter spec test/main.js"
+	}
+}
