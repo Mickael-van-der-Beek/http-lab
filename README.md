@@ -7,10 +7,10 @@ The goal of this project is to implement a robust HTTP server from top to bottom
 		   [ `HTTP Server` ]
 				| |
 				 V
-	[ `Node.js net (TCP) module`  ]
+	[ `Node.js net (TCP) module` ]
 				| |
 				 V
- [ `C bindings imported as Node.js add-ons` ]
+ 	[ `C bindings as Node.js add-ons` ]
 				| |
 				 V
 		[ `C socket library` ]
